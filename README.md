@@ -9,16 +9,14 @@ Implementation of Itti's paper on Saliency maps.
 ![Saliency map](https://github.com/ThibBac/Saliency_map/blob/master/images/sal.png)
 
 ## Overview
-This project follows the implementation of the algorithm developped by Owkin on the detection of cancerous cells in histology slides using a weakly supervised approach.
+This project follows the implementation of Itti's and Koch's model of Saliency map inspired by the behavior and the neural architecture of the early primate visual system.
 
 ## Installation Dependencies:
 * Python 2.7 or 3
-* TensorFlow 0.7
-* keras
-* Sklearn
 * Matplotlib
 * Numpy
-* Pandas
+* Scipy
+* OpenCV
 
 ## What is a weakly-supervised approach?
 
@@ -173,6 +171,7 @@ NB_FOLDS = 3              # Number of crossvalidation's folds
 
 ## References
 
-**Classification and Disease Localization in Histopathology Using Only Global Labels: A Weakly-Supervised Approach** 
-Pierre Courtiol, Eric W. Tramel, Marc Sanselme, Gilles Wainrib 
-15 Feb 2018 (modified: 15 Feb 2018)
+**A Model of Saliency-based Visual Attention for Rapid Scene Analysis** 
+Laurent Itti, Christof Koch and Ernst Niebur
+IEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 20, No. 11, pp. 1254-1259
+Nov 1998
