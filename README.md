@@ -34,13 +34,9 @@ https://en.wikipedia.org/wiki/Saliency_map
 In order to obtain the Saliency maps, the images are processed using the following steps : 
 
 1 - Extraction of 3 types of features maps : Color, Itensity, Orientation
-
 2 - Center-surround diffenres and normalisation
-
 3 - Across-scale combinations and normalisation
-
 4 - Linear combinations of the Conspicuity maps obtained at step 3)
-
 5 - Final Saliency map
 
 
@@ -54,13 +50,9 @@ General architecture of the model :
 In order to bound the most Salients zones in the image, i used a little trick:
 
 1 - First, I take the maximum of the Saliency map
-
 2 - I create a bounding box with a fixed size around this zone
-
 3 - Then, I hide this zone with a black box
-
 4 - Do again the 3 previous steps on the new map with the black box
-
 5 - Do all of this steps N times if you want the N most salients objects in the image
 
 
