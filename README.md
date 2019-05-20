@@ -49,11 +49,11 @@ General architecture of the model :
 
 In order to bound the most Salients zones in the image, i used a little trick:
 
-1 - First, I take the maximum of the Saliency map
-2 - I create a bounding box with a fixed size around this zone
-3 - Then, I hide this zone with a black box
-4 - Do again the 3 previous steps on the new map with the black box
-5 - Do all of this steps N times if you want the N most salients objects in the image
+1. First, I take the maximum of the Saliency map
+2. I create a bounding box with a fixed size around this zone
+3. Then, I hide this zone with a black box
+4. Do again the 3 previous steps on the new map with the black box
+5. Do all of this steps N times if you want the N most salients objects in the image
 
 
 #### Experimental results
