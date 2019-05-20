@@ -58,10 +58,11 @@ In order to bound the most Salients zones in the image, i used a little trick:
 
 #### Experimental results
 
+TODO
 
 #### Limitations and potential improvements
 
-
+TODO
 
 
 ## FAQ
@@ -70,20 +71,8 @@ In order to bound the most Salients zones in the image, i used a little trick:
 
 Dowload the Saliency_map.ipynb.
 
-Then change thoses lines according to what you want :
- 
-```python
-train_dir = "data/train_input/resnet_features"
-test_dir = "data/test_input/resnet_features"
 
-train_output_filename = "data/train_output.csv"
-test_output_filename = "data/test_output.csv"
-
-NB_RUNS = 5               # Number of models to train
-model_choice = 'CHOWDER'  # Chose your model : CHOWDER or CHOWDER_test
-REG = 0.6                 # Regularization strenght
-NB_FOLDS = 3              # Number of crossvalidation's folds
-```
+TODO
 
 ## References
 
