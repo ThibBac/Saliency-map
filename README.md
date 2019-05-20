@@ -22,6 +22,7 @@ This project follows the implementation of Itti's and Koch's model of Saliency m
 ## What is a Saliency map ?
 
 In computer vision, a saliency map is an image that shows each pixel's unique quality. The goal of a saliency map is to simplify and/or change the representation of an image into something that is more meaningful and easier to analyze. For example, if a pixel has a high grey level or other unique color quality in a color image, that pixel's quality will show in the saliency map and in an obvious way. Saliency is a kind of image segmentation. 
+
 https://en.wikipedia.org/wiki/Saliency_map 
 
 ## Saliency Algorithm
@@ -33,9 +34,13 @@ https://en.wikipedia.org/wiki/Saliency_map
 In order to obtain the Saliency maps, the images are processed using the following steps : 
 
 1 - Extraction of 3 types of features maps : Color, Itensity, Orientation
+
 2 - Center-surround diffenres and normalisation
+
 3 - Across-scale combinations and normalisation
+
 4 - Linear combinations of the Conspicuity maps obtained at step 3)
+
 5 - Final Saliency map
 
 
