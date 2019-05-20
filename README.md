@@ -33,11 +33,11 @@ https://en.wikipedia.org/wiki/Saliency_map
 
 In order to obtain the Saliency maps, the images are processed using the following steps : 
 
-1 - Extraction of 3 types of features maps : Color, Itensity, Orientation
-2 - Center-surround diffenres and normalisation
-3 - Across-scale combinations and normalisation
-4 - Linear combinations of the Conspicuity maps obtained at step 3)
-5 - Final Saliency map
+1. Extraction of 3 types of features maps : Color, Itensity, Orientation
+2. Center-surround diffenres and normalisation
+3. Across-scale combinations and normalisation
+4. Linear combinations of the Conspicuity maps obtained at step 3)
+5. Final Saliency map
 
 
 General architecture of the model :
