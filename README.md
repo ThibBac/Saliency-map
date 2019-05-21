@@ -72,8 +72,13 @@ TODO
 1. Dowload the saliency_map.py
 2. Run ```python python saliency_map.py --inputStream STREAM --inputFile FILE ```
 
+Script help :  
+```python python saliency.py -h or --help ```  
+
 STREAM : image or webcam  
 FILE : input file path
+
+## References
 
 **A Model of Saliency-based Visual Attention for Rapid Scene Analysis** 
 
