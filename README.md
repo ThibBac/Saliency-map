@@ -71,7 +71,8 @@ TODO
 
 1. Dowload the saliency_map.py
 2. Run ```python python saliency_map.py --inputStream STREAM --inputFile FILE ```
-STREAM : image or webcam
+
+STREAM : image or webcam  
 FILE : input file path
 
 ## References
