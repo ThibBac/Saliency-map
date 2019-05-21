@@ -75,8 +75,6 @@ TODO
 STREAM : image or webcam  
 FILE : input file path
 
-## References
-
 **A Model of Saliency-based Visual Attention for Rapid Scene Analysis** 
 
 Laurent Itti, Christof Koch and Ernst Niebur
@@ -85,5 +83,5 @@ Nov 1998
 
 ## Thanks
 
-https://github.com/akisato-/pySaliencyMap 
+https://github.com/akisato-/pySaliencyMap  
 https://github.com/shuuchen/saliency
