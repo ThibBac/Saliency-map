@@ -83,5 +83,7 @@ Laurent Itti, Christof Koch and Ernst Niebur
 IEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 20, No. 11, pp. 1254-1259
 Nov 1998
 
-- https://github.com/akisato-/pySaliencyMap
-- https://github.com/shuuchen/saliency
+## Thanks
+
+https://github.com/akisato-/pySaliencyMap 
+https://github.com/shuuchen/saliency
