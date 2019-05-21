@@ -1,4 +1,4 @@
-# Saliency_map
+# Saliency Map
 Implementation of Itti's paper on Saliency maps.
 
 # Documentation 
@@ -67,12 +67,12 @@ TODO
 
 ## FAQ
 
-#### How to reproduce?
+#### How to use ?
 
-Dowload the Saliency_map.ipynb.
-
-
-TODO
+1. Dowload the saliency_map.py
+2. Run ```python python saliency_map.py --inputStream STREAM --inputFile FILE ```
+STREAM : image or webcam
+FILE : input file path
 
 ## References
 
@@ -81,3 +81,6 @@ TODO
 Laurent Itti, Christof Koch and Ernst Niebur
 IEE Transactions on Pattern Analysis and Machine Intelligence, Vol. 20, No. 11, pp. 1254-1259
 Nov 1998
+
+- https://github.com/akisato-/pySaliencyMap
+- https://github.com/shuuchen/saliency
