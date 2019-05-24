@@ -58,11 +58,17 @@ In order to bound the most Salients zones in the image, i used a little trick:
 
 #### Experimental results
 
-TODO
+![lapin map](https://github.com/ThibBac/Saliency_map/blob/master/images/lapin_sal.png)
+![papillon map](https://github.com/ThibBac/Saliency_map/blob/master/images/papillon_sal.png)
+![tournesol map](https://github.com/ThibBac/Saliency_map/blob/master/images/tournesol_sal.png)
+
+
 
 #### Limitations and potential improvements
 
-TODO
+The principal limitation of this method is that we must do all the computation pipeline for each image, a very slow process when we talk about videos.
+
+A possible idea is to create a dataset of various different images, compute their saliency map and feed it to a deep neural network with the image as input and the saliency maps as labels.
 
 
 ## FAQ
